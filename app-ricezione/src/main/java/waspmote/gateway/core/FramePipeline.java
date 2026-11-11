@@ -1,4 +1,4 @@
-package waspmote.gateway;
+package waspmote.gateway.core;
 
 import java.time.LocalDateTime;
 import waspmote.gateway.frame.WaspmoteFrame;

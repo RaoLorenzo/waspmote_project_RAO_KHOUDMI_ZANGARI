@@ -1,4 +1,4 @@
-package waspmote.gateway.source;
+package waspmote.gateway.seriale;
 
 import java.util.LinkedHashMap;
 import java.util.Locale;
@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import waspmote.gateway.FramePipeline;
+import waspmote.gateway.core.FramePipeline;
 import waspmote.gateway.frame.WaspmoteFrameParser;
 import waspmote.gateway.xbee.XBeeApiEncoder;
 

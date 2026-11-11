@@ -1,5 +1,5 @@
 # Java / Maven
-gateway/target/
+app-ricezione/target/
 *.class
 # IDE
 .idea/
@@ -11,5 +11,3 @@ gateway/target/
 # Sistema
 .DS_Store
 Thumbs.db
-# Compilazione firmware
-firmware/build/

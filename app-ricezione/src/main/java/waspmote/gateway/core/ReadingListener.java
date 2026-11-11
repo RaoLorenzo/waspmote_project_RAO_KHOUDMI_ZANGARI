@@ -1,4 +1,4 @@
-package waspmote.gateway;
+package waspmote.gateway.core;
 
 /** Riceve gli eventi della pipeline: letture valide, errori e messaggi di stato. */
 public interface ReadingListener {

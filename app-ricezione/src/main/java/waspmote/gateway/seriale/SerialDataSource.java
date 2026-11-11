@@ -1,4 +1,4 @@
-package waspmote.gateway.source;
+package waspmote.gateway.seriale;
 
 import com.fazecast.jSerialComm.SerialPort;
 import com.fazecast.jSerialComm.SerialPortDataListener;
@@ -6,7 +6,7 @@ import com.fazecast.jSerialComm.SerialPortEvent;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
-import waspmote.gateway.FramePipeline;
+import waspmote.gateway.core.FramePipeline;
 
 /** Legge i byte dal gateway XBee collegato via USB (porta seriale virtuale). */
 public class SerialDataSource implements DataSource {

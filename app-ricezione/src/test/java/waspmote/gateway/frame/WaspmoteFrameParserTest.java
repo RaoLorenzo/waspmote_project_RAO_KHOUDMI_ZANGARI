@@ -10,9 +10,9 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.Test;
-import waspmote.gateway.FramePipeline;
-import waspmote.gateway.Reading;
-import waspmote.gateway.ReadingListener;
+import waspmote.gateway.core.FramePipeline;
+import waspmote.gateway.core.Reading;
+import waspmote.gateway.core.ReadingListener;
 import waspmote.gateway.xbee.XBeeApiEncoder;
 
 class WaspmoteFrameParserTest {

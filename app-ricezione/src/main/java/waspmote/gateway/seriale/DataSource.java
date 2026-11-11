@@ -1,4 +1,4 @@
-package waspmote.gateway.source;
+package waspmote.gateway.seriale;
 
 /** Una sorgente di byte (porta seriale o simulatore) che alimenta la pipeline. */
 public interface DataSource extends AutoCloseable {

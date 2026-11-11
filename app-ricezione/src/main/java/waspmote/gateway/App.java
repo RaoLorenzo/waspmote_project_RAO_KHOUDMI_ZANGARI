@@ -4,10 +4,13 @@ import java.awt.GraphicsEnvironment;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.CountDownLatch;
 import javax.swing.SwingUtilities;
+import waspmote.gateway.core.FramePipeline;
+import waspmote.gateway.core.Reading;
+import waspmote.gateway.core.ReadingListener;
 import waspmote.gateway.frame.WaspmoteFrame;
-import waspmote.gateway.source.DataSource;
-import waspmote.gateway.source.DemoDataSource;
-import waspmote.gateway.source.SerialDataSource;
+import waspmote.gateway.seriale.DataSource;
+import waspmote.gateway.seriale.DemoDataSource;
+import waspmote.gateway.seriale.SerialDataSource;
 import waspmote.gateway.ui.MainWindow;
 
 /**

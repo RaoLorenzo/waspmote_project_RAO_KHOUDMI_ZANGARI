@@ -16,8 +16,8 @@ import javax.swing.JTable;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableModel;
-import waspmote.gateway.Reading;
-import waspmote.gateway.ReadingListener;
+import waspmote.gateway.core.Reading;
+import waspmote.gateway.core.ReadingListener;
 import waspmote.gateway.frame.WaspmoteFrame;
 
 /**
