@@ -1,0 +1,13 @@
+# Java / Maven
+app-ricezione/target/
+*.class
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+# Sistema
+.DS_Store
+Thumbs.db
